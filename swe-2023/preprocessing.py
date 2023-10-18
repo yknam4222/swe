@@ -54,7 +54,7 @@ def spacing_str(text): # 띄어쓰기
 def normalize_str(text): # 위에서 자음, 모음 제거하고 있긴함
     emoticon_norm = emoticon_normalize(text, num_repeats= 2)
     repeat_norm = repeat_normalize(emoticon_norm, num_repeats= 2)
-
+    
     return repeat_norm
 
 def split_str(text): # 문장 분리
